@@ -1,0 +1,7 @@
+cd Desktop
+mkdir proyecto tienda
+cd proyecto tienda
+git init 
+touch index.html
+code .
+

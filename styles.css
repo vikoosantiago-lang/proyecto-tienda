@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav a {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Bienvenida */
+.bienvenida {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Productos */
+#productos {
+    text-align: center;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+/* Botones */
+.producto button,
+.login button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover,
+.login button:hover {
+    background-color: #555;
+}
+
+/* Contacto */
+#contacto {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Inicio de sesión */
+.login {
+    background-color: white;
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
